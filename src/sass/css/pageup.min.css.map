@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,AAAA,CACH,OAAO,CAAE,KAAK,CACd,QAAQ,CAAE,KAAK,CACf,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,IAAI,CAId,AAVD,AAOI,OAPG,CAOH,GAAG,AAAA,CACC,KAAK,CAAE,IAAI,CACd",
+    "sources": [
+        "../blocks/pageup.scss"
+    ],
+    "names": [],
+    "file": "pageup.min.css"
+}

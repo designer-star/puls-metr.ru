@@ -1,0 +1,28 @@
+.consultation{
+    min-height: 700px;
+    padding: 100px 0 100px 0;
+    background: url('../img/second_window/backround.png') center (center/cover) no-repeat;
+    .title{
+        color: #ffffff;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: left;
+    }
+    &__subscr{
+        margin-top: 80px;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        color: #ffffff;
+    }
+    .error{
+        border:1px solid red;
+        text-align: center;
+        color: seashell;
+    }
+    label.error{
+        border: none;
+        margin-bottom: 10px;
+    }
+}

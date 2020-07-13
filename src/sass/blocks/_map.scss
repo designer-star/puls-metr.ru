@@ -1,0 +1,66 @@
+.map{
+    min-height: 630px;
+    position: relative;
+    &_info{
+        position: absolute;
+        top: 0;
+        right: 50%;
+        transform: translateX(50%);
+        width: 460px;
+        height: 270px;
+        background-color: red;
+        padding: 50px 0 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        address{
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            color: #ffffff;
+        }
+        a{
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+            color: #ffffff;
+            &:hover{
+                color: rgb(80, 129, 30);
+            }
+        }
+        
+    }
+    &_social{
+        margin-top: 40px;
+        display: flex;
+        /* justify-content: space-between; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgb(248, 248, 240) ;
+            border-radius: 100%;
+            margin-right: 30px; 
+            width: 50px;
+            height: 50px;
+            transition: 1s all;
+            &:hover{
+                box-shadow: 3px 3px 5px rgb(251, 255, 252)(146, 74, 74);
+                background-color: chartreuse;
+                border: none;
+            }
+            img{
+                height: 27px;
+            }
+            
+        }
+        .ic{
+            margin-right: 0px;
+        }
+    }
+}
